@@ -1,0 +1,16 @@
+:root{    /* creamos variables con :root para que podamos poner colores con nombres mas faciles */
+   
+    --color-azul: #1c74fc;
+    --color-verde: #44b424;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
